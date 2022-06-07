@@ -1,0 +1,120 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+
+body{font-size: 13px;
+    line-height: 22px;
+    font-family: '나눔고딕';
+    color: rgb(16, 16, 16);
+}
+
+/* 탑 */
+.top{width: 1200px; margin: 0 auto; height: 45px;}
+.link1{float: right;}
+.link1 li{float: left;}
+.link1 li a{display: block; color: gray; padding-left: 20px; padding-top: 11px;}
+.link1 li a:hover{color: #ccc;}
+
+/* 로고 */
+.logo{width: 1200px; display: flex; margin: 0 auto; justify-content: center; height: 130px;}
+
+/* 헤더 */
+
+.header{
+    width:100%;
+    height:70px; /*수정*/
+    font-size:20px;
+    box-sizing:border-box;
+	border-bottom: 1px solid #ccc;
+	text-align:center;
+    margin:0 auto;
+    position:relative;}
+
+.main_nav >ul{overflow:hidden; width:1200px; margin:0 auto;}
+.main_nav >ul> li{float:left;width:20%;}
+.main_nav >ul> li> a{display:block; color:black;padding:15px 0px; font-weight: 600; font-size:18px; text-align:center;}
+
+.main_nav >ul >li> a:hover{color: #e50271;}
+
+.sub{width:100%; position:absolute; top:50px;  left:0; background: black;  display: none; border-bottom: #e50271 solid 3px;}
+.sub_menu{ width:1200px; margin:0 auto;}
+.sub_menu .menu{float:left; text-align:center; width:20%;}
+
+.sub_menu .menu >li> a{display:block;  font-size:15px; padding:15px 0px; text-align:center;
+					background:black; 
+}
+
+.menu >li> a{color:#e50271;}
+.menu> li> a:hover{color: white;}
+
+/* 헤더 끝 */
+
+/* 본문 시작 */
+
+.banner{width: 100%; text-align: center; height: 250px; margin: 20px 0; }
+
+
+.lnb{width: 100%; margin: 0 auto; height: 40px; display: flex; justify-content: center; border-bottom: 1px solid #ccc;}
+
+.lnb li a{display: block; font-size: 17px; color: gray; padding: 0 20px;}
+.lnb li a:hover{color: #ccc;}
+
+.lnb li:nth-child(2){border-left: #ccc 1px solid;   margin-bottom: 15px;}
+
+
+
+.search{width: 100%; margin: 50px auto; height: 50px; display: flex; justify-content: center; }
+
+.search select{display: inline-block; padding: 5px; font-size: 16px;}
+.textbox{display: inline-block; padding: 7px 10px 6px 10px; margin-left: 15px;}
+.search a{display: inline-block; font-size: 16px; background-color: #e50271; color: white; padding: 5px 15px; margin-left: -5px;}
+
+
+table{width: 1200px; margin: 0 auto; text-align: center; height: 600px; margin-bottom: 20px; font-size: 15px;}
+
+th{color: #e50271; border-top: #e50271 3px solid; border-bottom: 2px #ccc solid;}
+td{border-bottom: 2px #ccc solid;}
+
+.left{text-align: left; padding-left: 40px; background: url(../images/img5.png) no-repeat 2% 49%;}
+
+
+
+.number{width: 390px; box-sizing: border-box; display: flex; justify-content: space-between; margin: 0 auto; margin-bottom: 60px;}
+
+.number_word{display: inline-block; border: 1px #ccc solid; padding: 5px 10px; margin-bottom: 4px;}
+.number_word:hover{background-color: #e50271; color: white;}
+
+.number1:hover{background: url(../images/img3.jpg) no-repeat;}
+.number2:hover{background: url(../images/img4.jpg) no-repeat;}
+
+.button1{float: right;  display: inline-block; background-color: #e50271; color: white; box-sizing: border-box; padding: 7px 10px 7px 10px; font-size: 17px;}
+.button1:hover{background-color: black; color: white;}
+.box1{width: 1200px; margin: 0 auto; height: 60px;}
+
+
+
+/* 풋터 */
+
+.fotter{width: 100%; height: 500px; border-top: 1px solid #ccc;}
+.fotter_inner{width: 1200px; margin: 0 auto; height: 500px;  position: relative;}
+
+
+.link2{position: absolute; top: 20px; left: 0%; width: 900px; text-align: center;} 
+.link2_inner{float: left; padding:  10px 0px; box-sizing: border-box; width: 176px; height: 212px; border-right: 1px dotted #ccc;}
+.link2_inner a{ display: block; color: gray;}
+.link2_inner a:hover{color: #ccc;}
+.word1{font-size: 17px; font-weight: bold;}
+
+
+
+
+.box5{position: relative; top: 0; left: 900px; width: 300px; height: 200px; background: url(../images/icon4.jpg) no-repeat 200px 100px; padding: 30px;}
+.box5 h1{color: #e50271; font-size: 31px; }
+.box5 p{color: gray; font-size: 14px; line-height: 30px; padding-top: 30px;}
+
+.bottom{position:absolute; bottom: 20px; left: 50%; margin-left: -227.5px; text-align: center; font-size: 12px; color: gray;}
+.bottom p{padding-bottom: 5px;}
+.bottom a img{padding-top: 20px;}
+
+
+
